@@ -5,7 +5,7 @@ export const Artist = (props) => {
     return (
       <article className="article">
           <div className="icon-container"> 
-          <img src="{dots}" alt="image of heart" />
+          <img src="" alt="image of heart" />
           <img src="" alt="play icon" />
           <img src="" alt="dots icon" />
           </div>
