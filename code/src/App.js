@@ -2,6 +2,8 @@ import React from 'react'
 import data from './data.json'
 
 import { Artist } from './components/Artists';
+// import { Album } from './components/Album';
+{/*should we add header component?*/}
 
 console.log(data)
 
@@ -12,23 +14,23 @@ console.log('items', items)
 
 export const App = () => {
   return (
-  
+    <>
     <div className="container">
       <div className="heading-container">
         <h1 className="heading">New albums &amp; singles</h1>
       </div>
       <div className="article-container">
-      {items.map((item) => {
+       {items.map((item) => {
           return (
             <Artist
-              img={item.images[1].url}
+            img={item.images[1].url}
               title={item.name}
               description={item.artists[0].name}
             />
           );
         })}
-    </div>
-    </div>
-    
+     </div>
+   </div>
+    </>
   )
 }

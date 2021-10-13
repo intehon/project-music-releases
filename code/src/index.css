@@ -21,6 +21,7 @@ code {
 
 .heading-container {
   border-bottom: rgb(54, 54, 54) 1px solid;
+  margin-top: 15px;
 }
 
 .heading {
@@ -30,11 +31,40 @@ code {
   margin-bottom: 2px;
 }
 
+.icon-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 125px;
+}
+
+.icon-big {
+  width: 70px;
+}
+
+.icon {
+  width: 40px;
+}
+
+.overlay {
+  opacity: 0;
+  transition: 0.1s ease;
+  position: absolute;
+  background: rgba(37, 39, 44, 0.493);
+  width: 300px;
+  height: 300px;
+}
+
+.article:hover .overlay {
+  opacity: 1;
+}
+
 .article-container {
   display: grid;
   grid-template-columns: 1fr;
+  position: relative;
   grid-gap: 10px;
   padding-top: 10px;
+  margin-top: 15px;
 }
 
 .article {
@@ -44,23 +74,6 @@ code {
 
 .album-image {
   width: 300px;
-}
-
-/*.overlay:hover {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: rgba(156, 166, 197, 0.5);
-}*/
-
-.overlay {
-  display: none;
-}
-
-.album-image:hover {
-  opacity: 50%;
 }
 
 .song-name {
@@ -90,6 +103,7 @@ code {
 @media (min-width: 768px) {
   .article-container {
     grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
   }
 
   .container {

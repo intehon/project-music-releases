@@ -1,8 +1,8 @@
 import React from 'react';
 
-export const Artist = (props) => {
+export const Albums = (props) => {
       return (
-      <article className="article">
+      <article className="album-container">
         <div className="overlay">
           <div className="icon-container">
             <img src="./icons/heart.svg" className="icon"></img>
@@ -10,9 +10,6 @@ export const Artist = (props) => {
             <img src="./icons/dots.svg" className="icon"></img>
           </div>
         </div>
-         <img src={props.img} class="album-image" alt="spring view" />
-         <h2 className="song-name">{props.title}</h2>
-         <p className="artist-name">{props.description}</p>
-      </article>
-    );
-  }; 
+     </article>
+    )
+}
