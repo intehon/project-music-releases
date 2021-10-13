@@ -1,14 +1,9 @@
-// import React from 'react';
-// import { ReactComponent as MyCustomLogo } from '../assets/heart.svg';
+import React from 'react';
 
-// const Header = () => {
-// 	return (
-// 		<header>
-// 			<img src="./icons/heart.svg" />
-// 			<MyCustomLogo />
-// 			Welcome to my article website
-// 		</header>
-// 	);
-// };
-
-// export default Header;
+export const Header = () => {
+  return (
+ 		<header className="header">
+ 			<h1 className="heading">New albums &amp; singles</h1>
+ 		</header>
+ 	);
+ };

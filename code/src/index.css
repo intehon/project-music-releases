@@ -19,7 +19,7 @@ code {
   margin-bottom: 40px;
 }
 
-.heading-container {
+.header {
   border-bottom: rgb(54, 54, 54) 1px solid;
   margin-top: 15px;
 }
@@ -43,6 +43,7 @@ code {
 
 .icon {
   width: 40px;
+  fill: #ffff;
 }
 
 .overlay {
