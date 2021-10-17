@@ -52,6 +52,7 @@ code {
 
 .play {
   width: 50px;
+  padding: 0 20px;
   /* filter: invert(1); */
 }
 .dots {
@@ -64,9 +65,10 @@ code {
 }
 
 .play:hover {
-  width: 60px;
+  width: 70px;
   transition: 0.3s;
   padding: 0 10px;
+  opacity: 1;
 }
 
 .album-container {
@@ -81,7 +83,9 @@ code {
 }
 
 .album-container:hover .overlay {
+  display: flex;
   background: rgba(0, 0, 0, 0.6);
+  transition: 0.5s;
 }
 
 .article-container {
