@@ -1,3 +1,6 @@
+NETLIFY page: https://app.netlify.com/sites/music-releases-made-by-ida-and-emelie/settings/domain
+
+
 # Music Releases
 Replace this readme with your own information about your project.
 
