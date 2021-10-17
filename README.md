@@ -1,4 +1,4 @@
-NETLIFY page: https://app.netlify.com/sites/music-releases-made-by-ida-and-emelie/settings/domain
+NETLIFY page: https://music-releases-made-by-ida-and-emelie.netlify.app
 
 
 # Music Releases
