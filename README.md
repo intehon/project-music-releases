@@ -1,4 +1,4 @@
-NETLIFY page: https://music-releases-made-by-ida-and-emelie.netlify.app
+View it live: https://music-releases-made-by-ida-and-emelie.netlify.app
 
 
 # Music Releases
